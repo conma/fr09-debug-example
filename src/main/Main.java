@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		// Tính và in ra 2 mũ (vị trí thứ 2 của số 0 trong dãy nhị phân của n)
 		// Nếu không tìm được vị trí của số 0 thứ 2 trong dãy nhị phân, in ra -1
-		int x = 4;
+		int x = 380;
 		String binary = NumberUtils.toBinary(x);
 		int y = findSecondZeroPosition(binary);
 		System.out.println(customPow(2, y));
